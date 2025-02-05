@@ -1,13 +1,9 @@
-this is a repository for lazy people who need to study
+This repository contains tools for efficient study:
 
-the paper_reader.py can be used to read paper without choosing pages
+- **paper_reader.py**: Reads a paper without requiring page selection.
+  - **Usage**: `python paper_reader.py`
 
-Usage: python script.py
+- **book_reader.py**: Reads a book within a specified page range.
+  - **Usage**: `python book_reader.py <pdf_path> <start_page> <end_page>`
 
-the book_reader.py can be used to read book with page range input
-
-
-Usage: python script.py <pdf_path> <start_page> <end_page>
-
-
-comment the translater or change the translation language if you are not Chinese
+*Note*: If you're not a Chinese speaker, you may want to disable the translator or change the translation language.
